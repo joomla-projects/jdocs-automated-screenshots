@@ -1,0 +1,25 @@
+# IDE & System Related Files #
+.buildpath
+.editorconfig
+.project
+.settings
+.DS_Store
+.idea
+.vscode
+
+# System Test related files
+tests/acceptance.suite.yml
+tests/screenshots.suite.yml
+tests/_support/_generated/*TesterActions.php
+joomla-cms*
+cache*
+tests/_output*
+selenium-server-standalone.jar
+selenium.log
+tests/cache
+tests/_output
+vendor
+composer.phar
+
+# Build related
+RoboFile.ini
